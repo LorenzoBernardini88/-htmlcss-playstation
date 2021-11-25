@@ -17,6 +17,10 @@ button{
     color: #fff;
     border-radius: 20px;
 }
+.contenuto_jumbo button,
+.jumbo2 button{
+    background-color: #CD3D0F;
+}
 /* section jumbo */
 .jumbo{
     height: 800px;
@@ -26,9 +30,6 @@ button{
     background-position:center ;
     color: #fff;
     padding-bottom: 50px;
-}
-.contenuto_jumbo button{
-    background-color: #CD3D0F;
 }
 /* sezione1 possibilità */
 .section1 img {
@@ -43,3 +44,28 @@ button{
 .section2 button{
     background-color:#2C64E6;
 }
+.section2 .console{
+    border-bottom: solid 2px #2C64E6;
+}
+.card1{
+    opacity:0.5 ;
+}
+/* section3 jumbo2 */
+.jumbo2{
+    height: 800px;
+    min-height: 800px;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position:center ;
+    color: #fff;
+    padding-bottom: 50px;
+}
+/* sezione4 nuove uscite */
+.section4{
+    background-color: #202020;
+    color: #fff;
+}
+.section4 img{
+    border-radius: 20px;
+}
+
