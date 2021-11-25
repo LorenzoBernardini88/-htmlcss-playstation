@@ -8,6 +8,15 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+p{
+    color:grey;
+    font-size: 20px;
+}
+button{
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 20px;
+}
 /* section jumbo */
 .jumbo{
     height: 800px;
@@ -19,9 +28,18 @@ body{
     padding-bottom: 50px;
 }
 .contenuto_jumbo button{
-    padding: 5px 10px;
     background-color: #CD3D0F;
-    text-decoration: none;
-    color: #fff;
+}
+/* sezione1 possibilità */
+.section1 img {
     border-radius: 20px;
+}
+.img_border{
+    border: solid 2px #1878F3 ;
+    border-radius: 20px;
+    padding: 3px;
+}
+/* sezione2 console */
+.section2 button{
+    background-color:#2C64E6;
 }
