@@ -41,7 +41,8 @@ button{
     padding: 3px;
 }
 /* sezione2 console */
-.section2 button{
+.section2 button,
+.section5 button{
     background-color:#2C64E6;
 }
 .section2 .console{
