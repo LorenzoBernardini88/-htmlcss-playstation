@@ -69,4 +69,14 @@ button{
 .section4 img{
     border-radius: 20px;
 }
+/* sezione5 playstation plus */
+.section6{
+    background-color: #BEBCBB;
+}
+.section6 button{
+    border:none;
+    background-color:#D9DADC;
+    color:#2C64E6 ;
+}
+
 
