@@ -69,6 +69,9 @@ button{
 .section4 img{
     border-radius: 20px;
 }
+.section4 h5{
+    margin-top: 20px;
+}
 /* sezione5 playstation plus */
 .section6{
     background-color: #BEBCBB;
@@ -77,6 +80,15 @@ button{
     border:none;
     background-color:#D9DADC;
     color:#2C64E6 ;
+}
+/* sezione8 playstatio now */
+.section8{
+    background-color: #171C3B;
+}
+.section8 button{
+    border: none;
+    background-color: #fff;
+    color: black;
 }
 
 
