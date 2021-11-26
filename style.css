@@ -21,12 +21,27 @@ a{
     border: none !important;
 }
 /* HOVER */
+/* hover nav */
+.ms_drop_row img:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px 2px lightgrey;
+}
+.ms_navbar_collp a span:hover{
+    color:deepskyblue;
+}
+/* sezion2 console */
 .card1:hover{
     opacity:1;
     cursor: pointer;
 }
 
+
 /* BUTTON */
+.button_nav {
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
 button{
     padding: 10px 15px;
     font-size: 14px;
@@ -72,6 +87,9 @@ button{
 }
 .ms_position{
     position: static !important;
+}
+.ms_drop_row{
+    border-bottom: 1px solid black;
 }
 /* SECTION JUMBO */
 .jumbo{
