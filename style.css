@@ -17,7 +17,8 @@ p{
     opacity:1;
     cursor: pointer;
 }
-/* button */
+
+/* BUTTON */
 button{
     padding: 10px 15px;
     font-size: 14px;
@@ -41,6 +42,8 @@ button{
     background-color: #fff;
     color: black;
 }
+/* SECTION */
+
 /* section jumbo */
 .jumbo{
     height: 800px;
@@ -91,7 +94,7 @@ button{
 .section4 h5{
     margin-top: 20px;
 }
-/* sezione5 playstation plus */
+/* sezione6 playstation plus */
 .section6{
     background-color: #BEBCBB;
 }
@@ -99,6 +102,4 @@ button{
 .section8{
     background-color: #171C3B;
 }
-
-
 
