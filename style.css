@@ -42,9 +42,8 @@ button{
     background-color: #fff;
     color: black;
 }
-/* SECTION */
 
-/* section jumbo */
+/* SECTION JUMBO */
 .jumbo{
     height: 800px;
     min-height: 800px;
@@ -54,6 +53,8 @@ button{
     color: #fff;
     padding-bottom: 50px;
 }
+/* MAIN */
+
 /* section1 possibilità */
 .section1 img {
     border-radius: 20px;
@@ -101,5 +102,30 @@ button{
 /* section8 playstation now */
 .section8{
     background-color: #171C3B;
+}
+/* section9 Social */
+.ms_row .ms_img_cont{
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER */
+footer{
+    background-color: #02439C;
+    color:#fff ;
+}   
+footer .logo_play{
+    filter:brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(36deg) brightness(100%) contrast(108%);
+    width: 100px;
+}
+footer ul li {
+    list-style: none;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+footer .logo_sony{
+    width: 150px;
 }
 
