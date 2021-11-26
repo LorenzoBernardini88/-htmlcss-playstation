@@ -12,6 +12,9 @@ p{
     color:grey;
     font-size: 20px;
 }
+a{
+    text-decoration: none;
+}
 /* HOVER */
 .card1:hover{
     opacity:1;
@@ -43,11 +46,27 @@ button{
     color: black;
 }
 /* HEADER */
+header *{
+    border:1px solid black ;
+}
 .top_header{
     background-color: black;
 }
 .top_header img{
     width: 100px;
+}
+.navbar-nav .nav-link img{
+    width: 12px;
+    display: inline-block;
+}
+.navbar-nav .lente img{
+    width: 25px;
+}
+.dropdown-menu .dropdown-item img{
+    height: 85px;
+}
+.ms_position{
+    position: static !important;
 }
 /* SECTION JUMBO */
 .jumbo{
