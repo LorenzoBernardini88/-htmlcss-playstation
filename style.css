@@ -42,7 +42,13 @@ button{
     background-color: #fff;
     color: black;
 }
-
+/* HEADER */
+.top_header{
+    background-color: black;
+}
+.top_header img{
+    width: 100px;
+}
 /* SECTION JUMBO */
 .jumbo{
     height: 800px;
