@@ -54,7 +54,7 @@ button{
     color: #fff;
     padding-bottom: 50px;
 }
-/* sezione1 possibilità */
+/* section1 possibilità */
 .section1 img {
     border-radius: 20px;
 }
@@ -63,7 +63,7 @@ button{
     border-radius: 20px;
     padding: 3px;
 }
-/* sezione2 console */
+/* section2 console */
 .section2 .console{
     border-bottom: solid 2px #2C64E6;
 }
@@ -83,7 +83,7 @@ button{
     color: #fff;
     padding-bottom: 50px;
 }
-/* sezione4 nuove uscite */
+/* section4 nuove uscite */
 .section4{
     background-color: #202020;
     color: #fff;
@@ -94,11 +94,11 @@ button{
 .section4 h5{
     margin-top: 20px;
 }
-/* sezione6 playstation plus */
+/* section6 playstation plus */
 .section6{
     background-color: #BEBCBB;
 }
-/* sezione8 playstatio now */
+/* section8 playstation now */
 .section8{
     background-color: #171C3B;
 }
