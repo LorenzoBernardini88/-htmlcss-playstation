@@ -15,13 +15,15 @@ p{
 a{
     text-decoration: none;
 }
-.dropdown_zero{
+.ms_zero{
     margin-top: 0!important;
     border-radius: 0 0!important;
     border: none !important;
 }
+
 /* HOVER */
-/* hover nav */
+
+/* nav hover */
 .ms_drop_row img:hover{
     transform: scale(1.1);
     box-shadow: 0px 0px 0px 2px lightgrey;
@@ -29,7 +31,7 @@ a{
 .ms_navbar_collp a span:hover{
     color:deepskyblue;
 }
-/* button */
+/* buttons hover */
 button:hover{
     box-shadow: 0 0 0 2px white inset;
 }
@@ -39,7 +41,7 @@ button:hover{
 .section8 button:hover{
     box-shadow: 0 0 0 2px #171C3B inset;
 }
-/* section1 */
+/* section1 hover */
 .section1 img{
     transition: 0.2s linear;
 }
@@ -48,18 +50,18 @@ button:hover{
     transform: translate(0px ,-10px);
     box-shadow: 0 0 0 2px #2C64E6;
 }
-/* sezion2 */
+/* sezion2 hover */
 .card1:hover{
     opacity:1;
     border-bottom: solid 2px #2C64E6;
     cursor: pointer;
 }
-/* footer */
+/* footer hover */
 footer li a:hover {
     color: #fff;
 }
 
-/* BUTTON */
+/* BUTTONS PROPERTY */
 button{
     padding: 10px 15px;
     font-size: 14px;
@@ -92,8 +94,8 @@ button{
     border:2px solid #fff;
     color: black;
 }
-/* HEADER */
 
+/* HEADER */
 .top_header{
     background-color: black;
 }
@@ -110,12 +112,10 @@ button{
 .dropdown-menu .dropdown-item img{
     height: 85px;
 }
-.ms_position{
-    position: static !important;
-}
 .ms_drop_row{
     border-bottom: 1px solid black;
 }
+
 /* SECTION JUMBO */
 .jumbo{
     height: 800px;
@@ -126,6 +126,10 @@ button{
     color: #fff;
     padding-bottom: 50px;
 }
+.jumbo img{
+    max-width: 400px;
+}
+
 /* MAIN */
 
 /* section1 possibilità */
