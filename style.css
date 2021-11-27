@@ -33,6 +33,12 @@ a{
 button:hover{
     box-shadow: 0 0 0 2px white inset;
 }
+.section6 button:hover {
+    box-shadow: 0 0 0 3px rgba(255,255,255, 0.3)
+}
+.section8 button:hover{
+    box-shadow: 0 0 0 2px #171C3B inset;
+}
 /* section1 */
 .section1 img{
     transition: 0.2s linear;
@@ -47,6 +53,10 @@ button:hover{
     opacity:1;
     border-bottom: solid 2px #2C64E6;
     cursor: pointer;
+}
+/* footer */
+footer li a:hover {
+    color: #fff;
 }
 
 /* BUTTON */
@@ -78,7 +88,8 @@ button{
     color:#2C64E6 ;
 }
 .section8 button{
-    background-color: #fff;    
+    background-color: #fff;
+    border:2px solid #fff;
     color: black;
 }
 /* HEADER */
