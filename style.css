@@ -16,6 +16,14 @@ p{
 a{
     text-decoration: none;
 }
+.banner{
+    height: 800px;
+    min-height: 800px;
+    background-size: cover;
+    background-position:center ;
+    color: #fff;
+    padding-bottom: 50px;
+}
 .ms_zero{
     margin-top: 0!important;
     border-radius: 0 0!important;
@@ -126,13 +134,7 @@ button{
 
 /* SECTION JUMBO */
 .jumbo{
-    height: 800px;
-    min-height: 800px;
     background-image: url(img/jumbo-bg.png);
-    background-size: cover;
-    background-position:center ;
-    color: #fff;
-    padding-bottom: 50px;
 }
 
 /* MAIN */
@@ -158,13 +160,7 @@ button{
 }
 /* section3 jumbo2 */
 .jumbo2{
-    height: 800px;
-    min-height: 800px;
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: cover;
-    background-position:center ;
-    color: #fff;
-    padding-bottom: 50px;
 }
 /* section4 nuove uscite */
 .section4{
