@@ -29,7 +29,7 @@ a{
     transform: scale(1.1);
     box-shadow: 0px 0px 5px 2px lightgrey;
 }
-.ms_navbar_collp a span:hover{
+.ms_navbar_collp span:hover{
     color:deepskyblue;
 }
 /* buttons hover */
@@ -50,18 +50,15 @@ button:hover{
     box-shadow: 0 0 0 2px #171C3B inset;
 }
 /* section1 hover */
-.section1 img{
+.section1 .ms_img_trans{
     transition: 0.2s linear;
 }
-.section1 img:hover{
-    padding: 2px;
+.section1 .ms_img_trans:hover{
     transform: translate(0px ,-10px);
-    box-shadow: 0 0 0 2px #2C64E6;
 }
 /* sezion2 hover */
 .ms_card:hover{
     opacity:1;
-    border-bottom: solid 2px #2C64E6;
     cursor: pointer;
 }
 /* footer hover */
@@ -91,7 +88,7 @@ button{
 .section2 button,
 .section5 button{
     background-color:#2C64E6;
-    border: 2px solid #2C64E6
+    border: 2px solid #2C64E6;
 }
 .section6 button{
     background-color:#D9DADC;
@@ -137,20 +134,24 @@ button{
     color: #fff;
     padding-bottom: 50px;
 }
-.jumbo img{
-    max-width: 400px;
-}
 
 /* MAIN */
 
 /* section1 possibilità */
 .section1 img {
-    border: 1px solid #fff;
     border-radius: 20px;
+}
+.section1 .ms_img_border {
+    border: 2px solid #2C64E6;
+    border-radius: 20px;
+    padding: 3px;
 }
 /* section2 console */
 .section2 .ms_row p{
     font-size: 16px;
+}
+.ms_card2{
+    border-bottom: 2px solid #2C64E6;
 }
 .ms_card{
     opacity:0.5 ;
@@ -190,6 +191,9 @@ footer{
     background-color: #02439C;
     color:#fff ;
 }   
+footer .logo_sony{
+    width: 150px;
+}
 footer .logo_play{
     filter:brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(36deg) brightness(100%) contrast(108%);
     width: 100px;
@@ -201,6 +205,4 @@ footer ul li a{
     color: #fff;
     text-decoration: none;
 }
-footer .logo_sony{
-    width: 150px;
-}
+
